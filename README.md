@@ -56,32 +56,6 @@ Ensure you have the following installed:
 
    The server will run on `http://localhost:5000` by default.
 
-## API Endpoints
-
-### Authentication
-
-| Method | Endpoint         | Description       |
-| ------ | ---------------- | ----------------- |
-| POST   | /api/auth/signup | User registration |
-| POST   | /api/auth/login  | User login        |
-
-### Blogs
-
-| Method | Endpoint        | Description                   |
-| ------ | --------------- | ----------------------------- |
-| GET    | /api/blogs      | Get all blogs                 |
-| GET    | /api/blogs/\:id | Get a single blog             |
-| POST   | /api/blogs      | Create a blog (Auth required) |
-| PUT    | /api/blogs/\:id | Update a blog (Auth required) |
-| DELETE | /api/blogs/\:id | Delete a blog (Auth required) |
-
-### Comments
-
-| Method | Endpoint                 | Description                      |
-| ------ | ------------------------ | -------------------------------- |
-| POST   | /api/blogs/\:id/comments | Add a comment (Auth required)    |
-| DELETE | /api/comments/\:id       | Delete a comment (Auth required) |
-
 ## Future Enhancements
 
 - Implement role-based access control (RBAC)
